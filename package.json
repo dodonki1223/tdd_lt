@@ -7,6 +7,7 @@
   "scripts": {
     "test": "jest",
     "typecheck": "tsc --pretty --noEmit",
+    "build": "tsc",
     "exec": "ts-node"
   },
   "packageManager": "yarn@3.1.1",
