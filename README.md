@@ -60,3 +60,15 @@ $ yarn run exec
 - [♻️ 【第3章 三角測量】等値性比較のメソッドを実装](https://github.com/dodonki1223/tdd_lt/commit/e9da67702436db650ba0f8c103331171d93dfec9)
 - [✨ 【第3章 三角測量】null との等値性比較のテストを追加](https://github.com/dodonki1223/tdd_lt/commit/c5788d549ffcb28c48d4f9de0aa99742818e3e82)
 - [♻️ 【第3章 三角測量】null との等値性比較の実装](https://github.com/dodonki1223/tdd_lt/commit/2b76bae906c49c90c83aaac5a344a752e51665a5)
+
+### ✏️ 第2回 - 2021年12月11日
+
+- [♻️ 【第4章 意図を語るテスト】オブジェクトの比較に変更](https://github.com/dodonki1223/tdd_lt/commit/a7096e0db3992b90203a67b617b406a667c33ac0)
+- [♻️ 【第4章 意図を語るテスト】よりイミュターブルな形にするため amout を private にする](https://github.com/dodonki1223/tdd_lt/commit/9add07509892fd125df4cb42f58606d5d6f37017)
+- [✨ 【第5章 原則をあえて破るとき】 重複排除を行わず開発速度重視でフランを追加する](https://github.com/dodonki1223/tdd_lt/commit/9abaafcfc071967483191dff8db2e40b6b3388f8)
+- [✨ 【第6章 テスト不足に気づいたら】 Dollar, Franc の重複を排除するためにまずは Money クラスを作成する](https://github.com/dodonki1223/tdd_lt/commit/ce47286cef0dd8b853df7c592758b5d70b08b1b5)
+- [✨ 【第6章 テスト不足に気づいたら】 重複コード排除のため Money クラスに equals メソッドを追加する](https://github.com/dodonki1223/tdd_lt/commit/e8384a91d93a1c36f0da0708aa6ea96da73bfa41)
+- [✨ 【第7章 疑念をテストに翻訳する】Money から派生した Franc と Dollar は同じはずなのでそれの比較を追加する](https://github.com/dodonki1223/tdd_lt/commit/870259bbd386046b9aa3125b47b322eb57f6bcda)
+- [✨ 【第8章 実装を隠す】 times の一般化手前まで実装する](https://github.com/dodonki1223/tdd_lt/commit/76f698980ededd5b6db281be0947409580a271b1)
+- [✨ 【第9章 歩幅の調整】 Dollar と Franc のクラスを消すために Currency フィールドを追加する](https://github.com/dodonki1223/tdd_lt/commit/0ce7c6fff2f3338ec7ce0fbcc6f7d4bf5b2dd844)
+- [✨ 【第9章 歩幅の調整】 Dollar, Franc が同じものであると判定するためにテストを修正する](https://github.com/dodonki1223/tdd_lt/commit/c5cbe96488c98dd548c17a0ed9e93ba68eaf9521)
