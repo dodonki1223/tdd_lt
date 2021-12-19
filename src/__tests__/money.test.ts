@@ -1,5 +1,6 @@
 // import { Dollar } from '../dollar';
 // import { Franc } from '../franc';
+import { Bank } from '../bank';
 import { Money } from '../money';
 
 test('equals', () => {
@@ -35,4 +36,8 @@ test('times', () => {
 test('simple addition', () => {
   const sum :Money = Money.dollar(5).plus(Money.dollar(5));
   expect(sum).toEqual(Money.dollar(10));
+
+  const bank = new Bank();
+  const reduced = bank.reduce(sum, 'USD');
+  expect(Money.dollar(10)).toEqual(reduced);
 });
