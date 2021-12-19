@@ -72,3 +72,15 @@ $ yarn run exec
 - [✨ 【第8章 実装を隠す】 times の一般化手前まで実装する](https://github.com/dodonki1223/tdd_lt/commit/76f698980ededd5b6db281be0947409580a271b1)
 - [✨ 【第9章 歩幅の調整】 Dollar と Franc のクラスを消すために Currency フィールドを追加する](https://github.com/dodonki1223/tdd_lt/commit/0ce7c6fff2f3338ec7ce0fbcc6f7d4bf5b2dd844)
 - [✨ 【第9章 歩幅の調整】 Dollar, Franc が同じものであると判定するためにテストを修正する](https://github.com/dodonki1223/tdd_lt/commit/c5cbe96488c98dd548c17a0ed9e93ba68eaf9521)
+
+### ✏️ 第3回 - 2021年12月18日
+
+- [✨ 【第10章 テストに聞いてみる】 times の一般化のためにまずは currency を追加する](https://github.com/dodonki1223/tdd_lt/commit/3d8d5905e1eef4726ac4ad9a9161983b10c388a1)
+- [✨ 【第10章 テストに聞いてみる】 サブクラスたちの times の実装の差異をなくすために times の一般化](https://github.com/dodonki1223/tdd_lt/commit/87cfc55cce33039764b3fb0a60af13e68d6c0811)
+- [✨ 【第10章 テストに聞いてみる】エラー時に詳細な情報がだせるように toString メソッドを追加](https://github.com/dodonki1223/tdd_lt/commit/b051685acb811af4e626d52b289ec3befe2966dd)
+- [✨ 【第11章 不要になったら消す】 サブクラスがコンストラクタだけしかないので消す](https://github.com/dodonki1223/tdd_lt/commit/f7a5ed85b7ffec84b11f790c3e8ed8df5a6eab8a)
+- [✨ 【第12章 設計とメタファー】 `$5 + 5 CHF` を達成するためにまずは簡単な `$5 + $5` の実装から始める](https://github.com/dodonki1223/tdd_lt/commit/f293db00efcae98249122fcf8e26d6b053577146)
+- [✨ 【第12章 設計とメタファー】為替の概念を Bank クラスに担わせる](https://github.com/dodonki1223/tdd_lt/commit/325811cb23dc8cdb3eaa8c49318b6732a711b6bf)
+- [✨ 【第12章 設計とメタファー】 `$5 + 5 CHF` を実現するため plus メソッドは Expression（式）として返すようにする](https://github.com/dodonki1223/tdd_lt/commit/da1c24cbf6023f0b45edc43d53ef635b08a27089)
+- [✨ 【第13章 実装を導くテスト】 計算結果を Sum クラスで返すようにする](https://github.com/dodonki1223/tdd_lt/commit/97175427a082a56d0b11db8e559c11e49928a3c6)
+- [✨ 【第13章 実装を導くテスト】 reduce メソッドで為替の変更ができるようにする](https://github.com/dodonki1223/tdd_lt/commit/6b434b2caaae445836ad1a06fdedc4fae007d61b)
