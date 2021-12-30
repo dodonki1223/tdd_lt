@@ -4,8 +4,10 @@ import { Sum } from './sum';
 
 export class Bank {
   reduce(source: Expression, to: string):Money {
-    const sum = source as Sum
-    const amount = sum.augend.amount + sum.addend.amount;
-    return new Money(amount, to);
+    if (source instanceof Money)
+      return source;
+
+    const sum = source as Sum;
+    return sum.reduce(to);
   }
 }

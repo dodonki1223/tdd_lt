@@ -50,3 +50,9 @@ test('test plus returns sum', () => {
   expect(five).toEqual(sum.augend);
   expect(five).toEqual(sum.addend);
 })
+
+test('test reduce money', () => {
+  const bank = new Bank();
+  const result = bank.reduce(Money.dollar(1), 'USD');
+  expect(Money.dollar(1)).toEqual(result);
+})
