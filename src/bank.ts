@@ -15,6 +15,9 @@ export class Bank {
   }
 
   rate(from: Currency, to: Currency): number {
+    if (from === to)
+      return 1;
+
     const pair = new Pair(from, to);
     return this.rates[pair.key]
   }
