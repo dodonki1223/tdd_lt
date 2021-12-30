@@ -1,15 +1,15 @@
 import { Expression } from './expression';
-import { Money } from './money';
+import { Currency, Money } from './money';
 
 export class Bank {
-  reduce(source: Expression, to: string):Money {
+  reduce(source: Expression, to: Currency):Money {
     return source.reduce(this, to);
   }
 
   addRate(from: string, to: string, rate: number) {
   }
 
-  rate(from: string, to: string): number {
+  rate(from: Currency, to: Currency): number {
     return from === 'CHF' && to === 'USD' ? 2 : 1
   }
 }
