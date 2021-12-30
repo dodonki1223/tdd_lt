@@ -5,6 +5,8 @@
 - [ ] 他のオブジェクトとの等価性比較
 - [ ] 5CHF * 2 = 10CHF
 - [x] $5 * 2 = $10
+- [x] Bank.reduce(Money)
+
 - [x] amount を private にする
 - [x] Dollar の副作用どうする？
 - [x] nullとの等価性比較
