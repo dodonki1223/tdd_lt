@@ -84,3 +84,16 @@ $ yarn run exec
 - [✨ 【第12章 設計とメタファー】 `$5 + 5 CHF` を実現するため plus メソッドは Expression（式）として返すようにする](https://github.com/dodonki1223/tdd_lt/commit/da1c24cbf6023f0b45edc43d53ef635b08a27089)
 - [✨ 【第13章 実装を導くテスト】 計算結果を Sum クラスで返すようにする](https://github.com/dodonki1223/tdd_lt/commit/97175427a082a56d0b11db8e559c11e49928a3c6)
 - [✨ 【第13章 実装を導くテスト】 reduce メソッドで為替の変更ができるようにする](https://github.com/dodonki1223/tdd_lt/commit/6b434b2caaae445836ad1a06fdedc4fae007d61b)
+
+### ✏️ 第4回 - 2021年12月26日
+
+- [✨ 【第13章 実装を導くテスト】 どんな Expression が来ても動作するようにする](https://github.com/dodonki1223/tdd_lt/commit/6b05006964cad042423b6826f59e6f793775a3d4)
+- [✨ 【第13章 実装を導くテスト】 クラスの明示的なチェックはポリモフィズムに置き換えられるので Expression に reduce](https://github.com/dodonki1223/tdd_lt/commit/5422b3a1a50939ea5b229253d335f62b86cf6d1c)
+- [✨ 【第14章 学習用テストと回帰テスト】 Money の変換を行うために無理やりテストを通す](https://github.com/dodonki1223/tdd_lt/commit/0b95524021b935fae02f425a5a99ca090830bd1f)
+- [✨ 【第14章 学習用テストと回帰テスト】 為替レートを Money が知っていることになってしまったので Bank に移動させる](https://github.com/dodonki1223/tdd_lt/commit/5ce513042a9feff4a6ed9fbfc8c7e0adf680c5e5)
+- [✨ 【第14章 学習用テストと回帰テスト】 文字列をユニオン型で持たせるようにし取り回しやすいようにする](https://github.com/dodonki1223/tdd_lt/commit/de1ed37f6ef5e5b2732b8d6f87aa6ee3c641a4ca)
+- [✨ 【第14章 学習用テストと回帰テスト】 為替レートを管理するオブジェクトを作成する](https://github.com/dodonki1223/tdd_lt/commit/1d5210290ecb2758d205fefd7ef7d8d3a89f6caa)
+- [✨ 【第14章 学習用テストと回帰テスト】 USD → USD 変換がうまくいってなかったので回帰テストを追加し対応する](https://github.com/dodonki1223/tdd_lt/commit/6f3652d975ff40df22f8cc7ec1f7bb3b9d68940c)
+- [✨ 【第15章 テスト任せとコンパイラ任せ】 換算処理が抜けていたため追加する](https://github.com/dodonki1223/tdd_lt/commit/fa24b22d06b8b32409bfdb45b6a297c8cefb52b3)
+- [✨ 【第15章 テスト任せとコンパイラ任せ】 Money で取り回していた部分を Expression に寄せてポリモフィズムの恩恵を受け…](https://github.com/dodonki1223/tdd_lt/commit/cc00e167c0bd72308dfaaac56d0b299e6bf0164a)
+- [✨ 【第15章 テスト任せとコンパイラ任せ】 plus, times のメソッドが Expression で提供すべきなので改修する](https://github.com/dodonki1223/tdd_lt/commit/84f5b2c1f4f91f806a48e3cf01074534567ee1fa)
