@@ -2,7 +2,7 @@
 // import { Franc } from '../franc';
 import { Money } from '../money';
 import { Bank } from '../bank';
-import { Expression } from '../expression';
+import { Expression, roundCalculate } from '../expression';
 import { Sum } from '../sum';
 
 test('equals', () => {
