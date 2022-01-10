@@ -57,13 +57,16 @@ test('test reduce sum', () => {
   expect(reducedDecimal).toEqual(Money.dollar(0.9485));
 });
 
-test('test plus returns sum', () => {
-  const five = Money.dollar(5);
-  const result = five.plus(five)
-  const sum = result as Sum
-  
-  expect(five).toEqual(sum.augend);
-  expect(five).toEqual(sum.addend);
+test('test plus returns money when same currency', () => {
+  const fiveBucks = Money.dollar(5);
+  const resultBucks = fiveBucks.plus(fiveBucks) as Money
+  expect(resultBucks).toBeInstanceOf(Money);
+  expect(resultBucks.currency).toBe(fiveBucks.currency);
+
+  const fiveFrancs = Money.franc(5);
+  const resultFrancs = fiveFrancs.plus(fiveFrancs) as Money
+  expect(resultFrancs).toBeInstanceOf(Money);
+  expect(resultFrancs.currency).toBe(fiveFrancs.currency);
 })
 
 test('test reduce money', () => {
