@@ -97,3 +97,12 @@ $ yarn run exec
 - [✨ 【第15章 テスト任せとコンパイラ任せ】 換算処理が抜けていたため追加する](https://github.com/dodonki1223/tdd_lt/commit/fa24b22d06b8b32409bfdb45b6a297c8cefb52b3)
 - [✨ 【第15章 テスト任せとコンパイラ任せ】 Money で取り回していた部分を Expression に寄せてポリモフィズムの恩恵を受け…](https://github.com/dodonki1223/tdd_lt/commit/cc00e167c0bd72308dfaaac56d0b299e6bf0164a)
 - [✨ 【第15章 テスト任せとコンパイラ任せ】 plus, times のメソッドが Expression で提供すべきなので改修する](https://github.com/dodonki1223/tdd_lt/commit/84f5b2c1f4f91f806a48e3cf01074534567ee1fa)
+
+### ✏️ 第5回 - 2022年01月09日
+
+- [✨ 【TODO】 フランの計算を追加](https://github.com/dodonki1223/tdd_lt/commit/35376db6ee34238f98c624a368f098fe29da171d)
+- [✨ 【TODO】 「他のオブジェクトとの等価性比較」のテストを追加](https://github.com/dodonki1223/tdd_lt/commit/0d8d1bf9cf7e7bcaef564cd387edb89f6d824016)
+- [✨ 【TODO】 丸め処理のためライブラリを追加](https://github.com/dodonki1223/tdd_lt/commit/d79c09b078650c63510205f0367690fa17f458aa)
+- [✨ 【TODO】 丸め処理用の足し算をメソッドに閉じ込める](https://github.com/dodonki1223/tdd_lt/commit/fa0b23d5e958150b369d16e51611f51ca75fa888)
+- [✨ 【TODO】 丸め処理用の足し算メソッドを使用した書きぶりに変更](https://github.com/dodonki1223/tdd_lt/commit/9e8e57e5ca87cc9d782867e8be78ed2444759c20)
+- [✨ 【TODO】 同じ通貨の計算の場合はMoneyクラスを返す](https://github.com/dodonki1223/tdd_lt/commit/77dfe03519187f6e6769803397241d31cf5db6c7)
